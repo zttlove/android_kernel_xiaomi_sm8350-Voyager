@@ -964,7 +964,7 @@ out_put_task:
 	put_task_struct(priv->task);
 	priv->task = NULL;
 
-	return ret;
+	return 0;
 }
 #undef SEQ_PUT_DEC
 
