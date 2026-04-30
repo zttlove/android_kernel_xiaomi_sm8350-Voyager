@@ -186,8 +186,4 @@ obj-$(CONFIG_SIOX)		+= siox/
 obj-$(CONFIG_GNSS)		+= gnss/
 obj-$(CONFIG_INTERCONNECT)	+= interconnect/
 obj-$(CONFIG_COUNTER)		+= counter/
-obj-$(CONFIG_NXP_SR100)         += uwb-sr100/
-obj-y                           += fragmention/
-obj-y	+= kernelsu/
-
-obj-$(CONFIG_MIHW)		+= mihw/
+obj-$(CONFIG_NXP_SR100)		+= uwb-sr100/
